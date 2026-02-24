@@ -1,0 +1,182 @@
+{
+	"5hl9h85wjviuam9r": {
+		"definition": "root_guard_novice",
+		"x": 0,
+		"y": 160,
+		"root": true
+	},
+	"5erslwdorm3ja1qa": {
+		"definition": "guard_veteran",
+		"x": 0,
+		"y": 0,
+		"root": false
+	},
+	"je815x88eraojhm6": {
+		"definition": "guard_elite",
+		"x": 0,
+		"y": -192,
+		"root": false
+	},
+	"zu1qfnly2gqso4mm": {
+		"definition": "fortify_ability",
+		"x": 0,
+		"y": 224,
+		"root": false
+	},
+	"ye7hr63kcvaidib7": {
+		"definition": "fortify_lasting",
+		"x": -64,
+		"y": -64,
+		"root": false
+	},
+	"50ia6kurdnij2o89": {
+		"definition": "fortify_reactive",
+		"x": 64,
+		"y": -64,
+		"root": false
+	},
+	"kawwr505ecufy3hw": {
+		"definition": "fortify_armor",
+		"x": 96,
+		"y": 128,
+		"root": false
+	},
+	"kaj5nc32yr9aiit6": {
+		"definition": "fortify_duration",
+		"x": -96,
+		"y": 128,
+		"root": false
+	},
+	"x5bjyjcphq2umop2": {
+		"definition": "fortify_armor",
+		"x": 160,
+		"y": 0,
+		"root": false
+	},
+	"mcv5qnsum9qcu3ke": {
+		"definition": "fortify_duration",
+		"x": -160,
+		"y": 0,
+		"root": false
+	},
+	"onf1snx41ybs9soy": {
+		"definition": "fortify_block_chance",
+		"x": 32,
+		"y": 96,
+		"root": false
+	},
+	"mo8bfrsiedabu3qm": {
+		"definition": "fortify_block_chance",
+		"x": -32,
+		"y": 96,
+		"root": false
+	},
+	"wxhe1kqy3rgsmd67": {
+		"definition": "minor_endurance",
+		"x": -64,
+		"y": 64,
+		"root": false
+	},
+	"x1oizxqccgt1l1ct": {
+		"definition": "minor_endurance",
+		"x": -128,
+		"y": 32,
+		"root": false
+	},
+	"44watzd9nla7860g": {
+		"definition": "minor_strength",
+		"x": 64,
+		"y": 64,
+		"root": false
+	},
+	"33q886yxvy8nmxhd": {
+		"definition": "minor_strength",
+		"x": 128,
+		"y": 32,
+		"root": false
+	},
+	"dtc69593fatw39ji": {
+		"definition": "minor_tenacity",
+		"x": -64,
+		"y": 32,
+		"root": false
+	},
+	"5t9amfttq6o1c656": {
+		"definition": "minor_tenacity",
+		"x": 64,
+		"y": 32,
+		"root": false
+	},
+	"wn41z5jxggnab0zn": {
+		"definition": "fortify_block_chance",
+		"x": 0,
+		"y": 64,
+		"root": false
+	},
+	"gqbtkupxc6gsihbk": {
+		"definition": "fortify_armor",
+		"x": 192,
+		"y": -96,
+		"root": false
+	},
+	"zn0tu4vgcpzjcoza": {
+		"definition": "fortify_armor",
+		"x": 192,
+		"y": -192,
+		"root": false
+	},
+	"q8x3beyvaf4qxt9j": {
+		"definition": "fortify_duration",
+		"x": -192,
+		"y": -96,
+		"root": false
+	},
+	"5lgxe9cmm6mjio40": {
+		"definition": "fortify_duration",
+		"x": -192,
+		"y": -192,
+		"root": false
+	},
+	"pnejuz0s4rwd36fz": {
+		"definition": "minor_tenacity",
+		"x": -32,
+		"y": -96,
+		"root": false
+	},
+	"q90kt7r6zwdabj3l": {
+		"definition": "minor_tenacity",
+		"x": 32,
+		"y": -96,
+		"root": false
+	},
+	"a1nohk84wzuj4ft6": {
+		"definition": "minor_strength",
+		"x": 96,
+		"y": -96,
+		"root": false
+	},
+	"tedmcwulee7sxjr8": {
+		"definition": "minor_strength",
+		"x": 128,
+		"y": -128,
+		"root": false
+	},
+	"3abo4reqggdo0o8c": {
+		"definition": "minor_endurance",
+		"x": -96,
+		"y": -96,
+		"root": false
+	},
+	"x36janqt76pkognr": {
+		"definition": "minor_endurance",
+		"x": -128,
+		"y": -128,
+		"root": false
+	},
+	"mra8zmndc54ywaqh": {
+		"definition": "fortify_block_chance",
+		"x": 0,
+		"y": -128,
+		"root": false
+	}
+}

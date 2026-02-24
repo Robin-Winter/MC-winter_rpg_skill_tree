@@ -1,0 +1,13 @@
+{
+	"unlocked_by_default": true,
+	"title": "Main Attributes",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "book"
+		}
+	},
+	"starting_points": 1,
+	"spent_points_limit": 50,
+	"background": "textures/gui/advancements/backgrounds/adventure.png"
+}

@@ -1,0 +1,1399 @@
+{
+	"root_start": {
+		"title": "A new Journey",
+		"size": 1.25,
+		"description": {
+			"text": "Level up by collecting experience.\n* marked descriptions can be expanded by pressing Shift.",
+			"color": "blue"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "knowledge_book"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {}
+			}
+		],
+		"metadata": {
+			"icon": "v0v1ozal1q3gwji5"
+		}
+	},
+	"class_guard": {
+		"title": "Class: Guard",
+		"size": 1.25,
+		"description": [
+			{
+				"text": "The guard class features high defenses and focuses on outlasting the enemy in meele combat.\nGathers levels by blocking damage with a shield or taking damage.",
+				"color": "gray"
+			},
+			{
+				"text": "\nUnlocks Guard Skill Tree",
+				"color": "green"
+			},
+			{
+				"text": "\n+15% Armor",
+				"color": "green"
+			},
+			{
+				"text": "\n-50% Projectile Speed",
+				"color": "red"
+			},
+			{
+				"text": "\nYou may only choose 1 class!",
+				"color": "blue"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "shield"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.15,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:bow_projectile_speed",
+					"value": -0.5,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:crossbow_projectile_speed",
+					"value": -0.5,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "puffish_skills category unlock @s winter_rpg_skill_tree:class_guard",
+					"lock_command": "puffish_skills category lock @s winter_rpg_skill_tree:class_guard"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "qbau8fghahi4hlgb"
+		}
+	},
+	"class_guard_completed": {
+		"title": "Advanced Guard Specialization",
+		"size": 1,
+		"description": [
+			{
+				"text": "Will be unlocked once the Guard Class Tree is finished.",
+				"color": "blue"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "shield"
+			}
+		},
+		"rewards": [],
+		"metadata": {
+			"icon": "oie23huo4qm45t2v"
+		}
+	},
+	"class_adventurer": {
+		"title": "Class: Adventurer",
+		"size": 1.25,
+		"description": [
+			{
+				"text": "The adventurer class features a flexible playstyle that enhances your attacks.\nGathers levels by destroying monster spawner and travelling on foot or by boat.",
+				"color": "gray"
+			},
+			{
+				"text": "\nUnlocks Adventurer Skill Tree",
+				"color": "green"
+			},
+			{
+				"text": "\n+25% Natural Regeneration",
+				"color": "green"
+			},
+			{
+				"text": "\n-2 Armor Toughness",
+				"color": "red"
+			},
+			{
+				"text": "\nYou may only choose 1 class!",
+				"color": "blue"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "stone_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:natural_regeneration",
+					"value": 0.25,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor_toughness",
+					"value": -2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "puffish_skills category unlock @s winter_rpg_skill_tree:class_adventurer",
+					"lock_command": "puffish_skills category lock @s winter_rpg_skill_tree:class_adventurer"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "qbau8fghahi4hlgb"
+		}
+	},
+	"class_adventurer_completed": {
+		"title": "Advanced Adventurer Specialization",
+		"size": 1,
+		"description": [
+			{
+				"text": "Will be unlocked once the Adventurer Class Tree is finished.",
+				"color": "blue"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "stone_sword"
+			}
+		},
+		"rewards": [],
+		"metadata": {
+			"icon": "jteu3bi6pgta30og"
+		}
+	},
+	"class_scout": {
+		"title": "Class: Scout",
+		"size": 1.25,
+		"description": [
+			{
+				"text": "The scout class focuses on a skirmisher fighting style using range and mobility. It provides only little for meele encounters.\nGathers levels by sprinting and defeating raiders.",
+				"color": "gray"
+			},
+			{
+				"text": "\nUnlocks Scout Skill Tree",
+				"color": "green"
+			},
+			{
+				"text": "\n+20% Sprint Speed",
+				"color": "green"
+			},
+			{
+				"text": "\n-50% Attack Strength Recharge",
+				"color": "red"
+			},
+			{
+				"text": "\nYou may only choose 1 class!",
+				"color": "blue"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:sprinting_speed",
+					"value": 0.2,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": -0.5,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "puffish_skills category unlock @s winter_rpg_skill_tree:class_scout",
+					"lock_command": "puffish_skills category lock @s winter_rpg_skill_tree:class_scout"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "qbau8fghahi4hlgb"
+		}
+	},
+	"class_scout_completed": {
+		"title": "Advanced Scout Specialization",
+		"size": 1,
+		"description": [
+			{
+				"text": "Will be unlocked once the Scout Class Tree is finished.",
+				"color": "blue"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [],
+		"metadata": {
+			"icon": "qsfvi3wgolg27ej3"
+		}
+	},
+	"class_scholar": {
+		"title": "Class: Scholar",
+		"size": 1.25,
+		"description": [
+			{
+				"text": "The scholar class focuses on utilizing non-direct methods in combat. It is very weak defensively.\nGathers levels by gathering experience.",
+				"color": "gray"
+			},
+			{
+				"text": "\nUnlocks Scholar Skill Tree",
+				"color": "green"
+			},
+			{
+				"text": "\n+15% Experience",
+				"color": "green"
+			},
+			{
+				"text": "\n-50% Armor",
+				"color": "red"
+			},
+			{
+				"text": "\nYou may only choose 1 class!",
+				"color": "blue"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "writable_book"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:experience",
+					"value": 0.15,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": -0.5,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "puffish_skills category unlock @s winter_rpg_skill_tree:class_scholar",
+					"lock_command": "puffish_skills category lock @s winter_rpg_skill_tree:class_scholar"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "qbau8fghahi4hlgb"
+		}
+	},
+	"class_scholar_completed": {
+		"title": "Advanced Scholar Specialization",
+		"size": 1,
+		"description": [
+			{
+				"text": "Will be unlocked once the Scholar Class Tree is finished.",
+				"color": "blue"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "writable_book"
+			}
+		},
+		"rewards": [],
+		"metadata": {
+			"icon": "qz36vokzra4mmn4i"
+		}
+	},
+	"call_land": {
+		"title": "Call of the Land",
+		"size": 1.25,
+		"description": [
+			{
+				"text": "+2 Health",
+				"color": "green"
+			},
+			{
+				"text": "\n+50% Shovel Speed",
+				"color": "green"
+			},
+			{
+				"text": "\n+10% Movement Speed",
+				"color": "green"
+			},
+			{
+				"text": "\n+100% Step Height",
+				"color": "green"
+			},
+			{
+				"text": "\nYou may only choose 1 calling!",
+				"color": "blue"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "wheat"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.step_height",
+					"value": 1,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:shovel_speed",
+					"value": 0.5,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "qbau8fghahi4hlgb"
+		}
+	},
+	"call_mountain": {
+		"title": "Call of the Mountain",
+		"size": 1.25,
+		"description": [
+			{
+				"text": "+50% Pickaxe Mining Speed",
+				"color": "green"
+			},
+			{
+				"text": "\n+2 Safe Fall Distance",
+				"color": "green"
+			},
+			{
+				"text": "\n-1 Visibility",
+				"color": "green"
+			},
+			{
+				"text": "\n+0.5 Fortune",
+				"color": "green"
+			},
+			{
+				"text": "\nYou may only choose 1 calling!",
+				"color": "blue"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "coal"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:pickaxe_speed",
+					"value": 0.5,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:fall_reduction",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:stealth",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:fortune",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "v0v1ozal1q3gwji5"
+		}
+	},
+	"call_city": {
+		"title": "Call of the City",
+		"size": 1.25,
+		"description": [
+			{
+				"text": "+100% Shovel Speed",
+				"color": "green"
+			},
+			{
+				"text": "\n+50% Axe Speed",
+				"color": "green"
+			},
+			{
+				"text": "\n+25% Stamina",
+				"color": "green"
+			},
+			{
+				"text": "\n+2 Block Interaction Range",
+				"color": "green"
+			},
+			{
+				"text": "\nYou may only choose 1 calling!",
+				"color": "blue"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "stone_shovel"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:shovel_speed",
+					"value": 1,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:axe_speed",
+					"value": 0.5,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:stamina",
+					"value": 0.25,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "player.block_interaction_range",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "h6uhh9dc8shmkid2"
+		}
+	},
+	"call_sea": {
+		"title": "Call of the Sea",
+		"size": 1.25,
+		"description": [
+			{
+				"text": "+1 Luck",
+				"color": "green"
+			},
+			{
+				"text": "\n+1 Oxygen",
+				"color": "green"
+			},
+			{
+				"text": "\n+50% Natural Regeneration",
+				"color": "green"
+			},
+			{
+				"text": "\n+50% Swimming & Diving Speed",
+				"color": "green"
+			},
+			{
+				"text": "\n+100% Underwater Mining Speed",
+				"color": "green"
+			},
+			{
+				"text": "\nYou may only choose 1 calling!",
+				"color": "blue"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bundle"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.oxygen_bonus",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:natural_regeneration",
+					"value": 0.5,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.water_movement_efficiency",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "neoforge:swim_speed",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "player.submerged_mining_speed",
+					"value": 1,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "asgiheqxu756l7l7"
+		}
+	},
+	"endurance": {
+		"title": "Endurance",
+		"description": {
+			"text": "+2 Health \n+5% Exhaustion Efficiency",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "instant_health"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:stamina",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xylxv472gm74jowg"
+		}
+	},
+	"minor_endurance": {
+		"title": "Minor Endurance",
+		"size": 0.75,
+		"description": {
+			"text": "+1 Health \n+2.5% Exhaustion Efficiency",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "instant_health"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:stamina",
+					"value": 0.025,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "rflm4y764c7v9g07"
+		}
+	},
+	"strength": {
+		"title": "Strength",
+		"description": {
+			"text": "+5% Meele Damage \n+2.5% Mining Speed",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:melee_damage",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:mining_speed",
+					"value": 0.025,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "bc69hw1gfm77tjwh"
+		}
+	},
+	"minor_strength": {
+		"title": "Minor Strength",
+		"size": 0.75,
+		"description": {
+			"text": "+2.5% Meele Damage \n+1.5% Mining Speed",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:melee_damage",
+					"value": 0.025,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:mining_speed",
+					"value": 0.015,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "vu79l011p7tcyp68"
+		}
+	},
+	"dexterity": {
+		"title": "Dexterity",
+		"description": {
+			"text": "+5% Ranged Damage \n+2.5% Sprint Speed",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "leather_boots"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:sprinting_speed",
+					"value": 0.025,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "mslxfs2kq3qz40md"
+		}
+	},
+	"minor_dexterity": {
+		"title": "Minor Dexterity",
+		"size": 0.75,
+		"description": {
+			"text": "+2.5% Ranged Damage \n+1.5% Sprint Speed",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "leather_boots"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 0.025,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:sprinting_speed",
+					"value": 0.015,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ww5sft6qaydc7y8k"
+		}
+	},
+	"perception": {
+		"title": "Perception",
+		"description": {
+			"text": "+2% Critical Strike Chance \n+0.1 Fortune",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "ender_eye"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:ranged_crit_chance",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:meele_crit_chance",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:fortune",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "s76ql9payxv3jgjk"
+		}
+	},
+	"minor_perception": {
+		"title": "Minor Perception",
+		"size": 0.75,
+		"description": {
+			"text": "+1% Critical Strike Chance \n+0.05 Fortune",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "ender_eye"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:ranged_crit_chance",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:meele_crit_chance",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:fortune",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ahr5572uqq4iq9bx"
+		}
+	},
+	"intelligence": {
+		"title": "Intelligence",
+		"description": {
+			"text": "+5% Experience \n+5% Healing",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "book"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:experience",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:healing",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "e872iohj0pkrxne6"
+		}
+	},
+	"minor_intelligence": {
+		"title": "Minor Intelligence",
+		"size": 0.75,
+		"description": {
+			"text": "+2.5% Experience \n+2.5% Healing",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "book"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:experience",
+					"value": 0.025,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:healing",
+					"value": 0.025,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "bcqlzu13agyk52k3"
+		}
+	},
+	"tenacity": {
+		"title": "Tenacity",
+		"description": {
+			"text": "+5% Armor \n+5% Knockback Resistance",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "netherite_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "6wxpigoet91hz6dk"
+		}
+	},
+	"minor_tenacity": {
+		"title": "Minor Tenacity",
+		"size": 0.75,
+		"description": {
+			"text": "+2.5% Armor \n+2.5% Knockback Resistance",
+			"color": "green"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "netherite_chestplate"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.025,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": 0.025,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "6wa7n32m04k6ivt4"
+		}
+	},
+	"spirit": {
+		"title": "Spirit",
+		"description": {
+			"text": "+10% Natural Regeneration \n+5% Magic Damage",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "conduit_power"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:natural_regeneration",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_damage",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "bttcjut3p8hk0cl0"
+		}
+	},
+	"minor_spirit": {
+		"title": "Minor Spirit",
+		"size": 0.75,
+		"description": {
+			"text": "+5% Natural Regeneration \n+2.5% Magic Damage",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "conduit_power"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:natural_regeneration",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_damage",
+					"value": 0.025,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "g9ctcz027hsm4cid"
+		}
+	},
+	"ferocity": {
+		"title": "Ferocity",
+		"description": {
+			"text": "+2.5% Armor Shredding* \n0.05 Knockback*",
+			"color": "green"
+		},
+		"extra_description": {
+			"text": "Armor shredding attacks ignore a percentage of armor on the target.\nKnockback is measured in block distance.",
+			"color": "blue"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "bad_omen"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_knockback",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:armor_shred",
+					"value": 0.025,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "7182gj9qjx0on0vh"
+		}
+	},
+	"minor_ferocity": {
+		"title": "Minor Ferocity",
+		"size": 0.75,
+		"description": {
+			"text": "+1.5% Armor Shredding* \n+0.025 Knockback*",
+			"color": "green"
+		},
+		"extra_description": {
+			"text": "Armor shredding attacks ignore a percentage of armor on the target.\nKnockback is measured in block distance.",
+			"color": "blue"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "bad_omen"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_knockback",
+					"value": 0.025,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:armor_shred",
+					"value": 0.015,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "nkt1xg2ckpv0xolc"
+		}
+	}
+}

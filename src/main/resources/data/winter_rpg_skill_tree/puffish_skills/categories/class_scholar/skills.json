@@ -1,0 +1,224 @@
+{
+	"fslil1op41hj3cvy": {
+		"definition": "root_scholar_novice",
+		"x": 0,
+		"y": 128,
+		"root": true
+	},
+	"1i37fbiylm0s9mbr": {
+		"definition": "expertise_armor",
+		"x": 0,
+		"y": 32,
+		"root": false
+	},
+	"66817bm2fju2gbsx": {
+		"definition": "scholar_veteran",
+		"x": 0,
+		"y": -64,
+		"root": false
+	},
+	"4zmqjdlq68fm79u5": {
+		"definition": "expertise_duration",
+		"x": 0,
+		"y": -160,
+		"root": false
+	},
+	"128z9kmznltv1r3a": {
+		"definition": "scholar_elite",
+		"x": 0,
+		"y": -256,
+		"root": false
+	},
+	"wp4rqfmgdr1gric0": {
+		"definition": "minor_intelligence",
+		"x": 320,
+		"y": 128,
+		"root": false
+	},
+	"8rme5aczdp78t35x": {
+		"definition": "minor_intelligence",
+		"x": 320,
+		"y": -256,
+		"root": false
+	},
+	"mw6jd3fsuqvmh8kt": {
+		"definition": "minor_intelligence",
+		"x": -320,
+		"y": 128,
+		"root": false
+	},
+	"trhb47zm4a51kl9o": {
+		"definition": "minor_intelligence",
+		"x": -320,
+		"y": -256,
+		"root": false
+	},
+	"pl2vw72h08cepo4x": {
+		"definition": "expertise_in_forest",
+		"x": -64,
+		"y": -224,
+		"root": false
+	},
+	"pn9ug1n16c05yxae": {
+		"definition": "expertise_in_depths",
+		"x": -64,
+		"y": -160,
+		"root": false
+	},
+	"yltfugvf5twk2rpp": {
+		"definition": "minor_perception",
+		"x": -160,
+		"y": -224,
+		"root": false
+	},
+	"85abk13i8f6fvo18": {
+		"definition": "minor_endurance",
+		"x": -160,
+		"y": -160,
+		"root": false
+	},
+	"njbf7gfnc018662h": {
+		"definition": "expertise_movement",
+		"x": -256,
+		"y": -224,
+		"root": false
+	},
+	"p7ulvltwdljmuboc": {
+		"definition": "expertise_fortune",
+		"x": -256,
+		"y": -160,
+		"root": false
+	},
+	"n0xqdvi4sjb6yfg7": {
+		"definition": "expertise_in_jungle",
+		"x": 64,
+		"y": 64,
+		"root": false
+	},
+	"o8ospfgqc53omozn": {
+		"definition": "expertise_in_taiga",
+		"x": 64,
+		"y": 0,
+		"root": false
+	},
+	"xptdswc1iihmoxiw": {
+		"definition": "expertise_in_badlands",
+		"x": 64,
+		"y": -128,
+		"root": false
+	},
+	"6yjk0hoc0wweg3gh": {
+		"definition": "expertise_in_desert",
+		"x": 64,
+		"y": -192,
+		"root": false
+	},
+	"kjmj06m2k2bloord": {
+		"definition": "minor_endurance",
+		"x": 160,
+		"y": -128,
+		"root": false
+	},
+	"h4lfj70blkt2k58a": {
+		"definition": "minor_endurance",
+		"x": 160,
+		"y": 0,
+		"root": false
+	},
+	"4bof4ft128817dlh": {
+		"definition": "minor_perception",
+		"x": 160,
+		"y": 64,
+		"root": false
+	},
+	"hp833qqriodcps8q": {
+		"definition": "minor_perception",
+		"x": 160,
+		"y": -192,
+		"root": false
+	},
+	"leeycjqn6zey5r6m": {
+		"definition": "expertise_regeneration",
+		"x": 256,
+		"y": -192,
+		"root": false
+	},
+	"nmdfq3u17hopwv6k": {
+		"definition": "expertise_poison",
+		"x": 256,
+		"y": 64,
+		"root": false
+	},
+	"ptk3cpv71shwstpf": {
+		"definition": "expertise_slow_chance",
+		"x": 256,
+		"y": 0,
+		"root": false
+	},
+	"8ru97s805k2lwh0v": {
+		"definition": "expertise_burn_chance",
+		"x": 256,
+		"y": -128,
+		"root": false
+	},
+	"i41vcn85q5rhp25m": {
+		"definition": "expertise_in_coast",
+		"x": -64,
+		"y": 0,
+		"root": false
+	},
+	"6bsujfajsy2ceua9": {
+		"definition": "expertise_in_mountain",
+		"x": -64,
+		"y": 64,
+		"root": false
+	},
+	"gqoanu0deuqxfi8u": {
+		"definition": "minor_perception",
+		"x": -160,
+		"y": 0,
+		"root": false
+	},
+	"nrs7fda5y5vg0x6f": {
+		"definition": "minor_endurance",
+		"x": -160,
+		"y": 64,
+		"root": false
+	},
+	"838om633au5in9zu": {
+		"definition": "expertise_falldamage",
+		"x": -256,
+		"y": 64,
+		"root": false
+	},
+	"zdzqk9rgi5bd1ch4": {
+		"definition": "expertise_stealth",
+		"x": -256,
+		"y": 0,
+		"root": false
+	},
+	"dv2rygg61ei40g9o": {
+		"definition": "expertise_movement",
+		"x": -224,
+		"y": -64,
+		"root": false
+	},
+	"uug2x0aj2h9gua35": {
+		"definition": "expertise_stamina",
+		"x": -96,
+		"y": -64,
+		"root": false
+	},
+	"cbyp2t5dv257irxd": {
+		"definition": "expertise_toughness",
+		"x": 96,
+		"y": -64,
+		"root": false
+	},
+	"s3b5jymmqhjcjc55": {
+		"definition": "expertise_absorption",
+		"x": 224,
+		"y": -64,
+		"root": false
+	}
+}

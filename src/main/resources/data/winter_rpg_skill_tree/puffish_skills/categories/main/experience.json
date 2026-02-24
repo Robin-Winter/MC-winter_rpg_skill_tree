@@ -1,0 +1,25 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min((level + 5) ^ 2 + 25, 5000)"
+		}
+	},
+	"sources": [
+		{
+			"type": "winter_rpg_skill_tree:generic_experience",
+			"data": {
+				"variables": {
+					"experience_gained": {
+						"operations": [
+						  {
+							"type": "experience_gained"
+						  }
+						]
+					}
+				},
+				"experience": "experience_gained"
+			}
+		}
+	]
+}

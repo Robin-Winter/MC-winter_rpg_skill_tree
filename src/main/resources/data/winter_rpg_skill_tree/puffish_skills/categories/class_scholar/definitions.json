@@ -1,0 +1,1018 @@
+{
+	"root_scholar_novice": {
+		"title": "Novice Scholar",
+		"size": 1.25,
+		"description": {
+			"text": "Level up by collecting experience.",
+			"color": "blue"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "writable_book"
+			}
+		},
+		"rewards": [],
+		"metadata": {
+			"icon": "cgb3am5sn94nqqs8"
+		}
+	},
+	"scholar_veteran": {
+		"title": "Veteran Scholar",
+		"size": 1.25,
+		"required_spent_points": 9,
+		"description": [
+			{
+				"text": "Requires 9 spent Skill Points!",
+				"color": "yellow"
+			},
+			{
+				"text": "\n\n+15% Experience",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "writable_book"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:experience",
+					"value": 0.15,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "0vy7qzvkzxywwhor"
+		}
+	},
+	"scholar_elite": {
+		"title": "Elite Scholar",
+		"size": 1.25,
+		"required_spent_points": 19,
+		"description": [
+			{
+				"text": "Requires 19 spent Skill Points!",
+				"color": "yellow"
+			},
+			{
+				"text": "\n\n+20% Health",
+				"color": "green"
+			},
+			{
+				"text": "\nUnlocks Specializations in the main tree.",
+				"color": "blue"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "writable_book"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "puffish_skills skills unlock @s winter_rpg_skill_tree:main wtl2fjyc7l4v3btj",
+					"lock_command": "puffish_skills skills lock @s winter_rpg_skill_tree:main wtl2fjyc7l4v3btj"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 0.2,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "g9i2c5dvwxkokb7a"
+		}
+	},
+	"expertise_in_taiga": {
+		"title": "Expertise: Taiga",
+		"size": 1,
+		"description": [
+			{
+				"text": "Enables expertise in taiga biomes.",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "winter_rpg_skill_tree:textures/icons/expertise.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:expertise_in_taiga",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "7afqsyzak2nim8gc"
+		}
+	},
+	"expertise_in_jungle": {
+		"title": "Expertise: Jungle",
+		"size": 1,
+		"description": [
+			{
+				"text": "Enables expertise in jungle biomes.",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "winter_rpg_skill_tree:textures/icons/expertise.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:expertise_in_jungle",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "b8nsaesw7q82davc"
+		}
+	},
+	"expertise_in_badlands": {
+		"title": "Expertise: Badlands",
+		"size": 1,
+		"description": [
+			{
+				"text": "Enables expertise in badlands biomes.",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "winter_rpg_skill_tree:textures/icons/expertise.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:expertise_in_badlands",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "jh9f8tb6fz102jid"
+		}
+	},
+	"expertise_in_desert": {
+		"title": "Expertise: Desert",
+		"size": 1,
+		"description": [
+			{
+				"text": "Enables expertise in desert biomes.",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "winter_rpg_skill_tree:textures/icons/expertise.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:expertise_in_desert",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "k33axfsmxwm42bgd"
+		}
+	},
+	"expertise_in_forest": {
+		"title": "Expertise: Forest",
+		"size": 1,
+		"description": [
+			{
+				"text": "Enables expertise in forest biomes.",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "winter_rpg_skill_tree:textures/icons/expertise.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:expertise_in_forest",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "bpnjeyezuiyoc0jd"
+		}
+	},
+	"expertise_in_depths": {
+		"title": "Expertise: Depths",
+		"size": 1,
+		"description": [
+			{
+				"text": "Enables expertise below Y32.",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "winter_rpg_skill_tree:textures/icons/expertise.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:expertise_in_depths",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "9nhxa9k2skir1x90"
+		}
+	},
+	"expertise_in_coast": {
+		"title": "Expertise: Coast",
+		"size": 1,
+		"description": [
+			{
+				"text": "Enables expertise in coast biomes.",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "winter_rpg_skill_tree:textures/icons/expertise.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:expertise_in_coast",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "2m8spy1yz94cqlsx"
+		}
+	},
+	"expertise_in_mountain": {
+		"title": "Expertise: Mountain",
+		"size": 1,
+		"description": [
+			{
+				"text": "Enables expertise in mountain and hill biomes.",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "winter_rpg_skill_tree:textures/icons/expertise.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:expertise_in_mountain",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "mu2tzokvz522w8kv"
+		}
+	},
+	"expertise_duration": {
+		"title": "Expertise: Duration",
+		"size": 0.75,
+		"description": [
+			{
+				"text": "+50% Duration for Expertise",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "winter_rpg_skill_tree:textures/icons/expertise.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:expertise_duration",
+					"value": 0.5,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "nxk8sbi63bjubqje"
+		}
+	},
+	"expertise_movement": {
+		"title": "Expertise: Movement Speed",
+		"size": 0.75,
+		"description": [
+			{
+				"text": "+10% Movement Speed for Expertise",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "winter_rpg_skill_tree:textures/icons/expertise.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:expertise_movement_mult",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "uzhl2fg5v03gyr5c"
+		}
+	},
+	"expertise_oxygen": {
+		"title": "Expertise: Oxygen",
+		"size": 0.75,
+		"description": [
+			{
+				"text": "+1 Oxygen for Expertise",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "winter_rpg_skill_tree:textures/icons/expertise.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:expertise_oxygen",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "tcozh0xv8y55o53d"
+		}
+	},
+	"expertise_falldamage": {
+		"title": "Expertise: Duration",
+		"size": 0.75,
+		"description": [
+			{
+				"text": "-30% Falldamage for Expertise",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "winter_rpg_skill_tree:textures/icons/expertise.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:expertise_falldamage_mult",
+					"value": -0.3,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "68qk285hbgryyx6t"
+		}
+	},
+	"expertise_fortune": {
+		"title": "Expertise: Fortune",
+		"size": 0.75,
+		"description": [
+			{
+				"text": "+1 Fortune for Expertise",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "winter_rpg_skill_tree:textures/icons/expertise.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:expertise_fortune",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "c1kay4ztxw6ofrbi"
+		}
+	},
+	"expertise_slow_chance": {
+		"title": "Expertise: Slow",
+		"size": 0.75,
+		"description": [
+			{
+				"text": "+25% Chance to inflict Slow for Expertise",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "winter_rpg_skill_tree:textures/icons/expertise.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:expertise_slow_chance",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "5wnmqrk2zuuposq7"
+		}
+	},
+	"expertise_burn_chance": {
+		"title": "Expertise: Burn",
+		"size": 0.75,
+		"description": [
+			{
+				"text": "+25% Chance to inflict Burn for Expertise",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "winter_rpg_skill_tree:textures/icons/expertise.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:expertise_burn_chance",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "tb30dwg5lhxo9ard"
+		}
+	},
+	"expertise_poison": {
+		"title": "Expertise: Poison",
+		"size": 0.75,
+		"description": [
+			{
+				"text": "+25% Chance to inflict Poison for Expertise",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "winter_rpg_skill_tree:textures/icons/expertise.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:expertise_poison_chance",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xzgppqzg41szc5cd"
+		}
+	},
+	"expertise_stamina": {
+		"title": "Expertise: Stamina",
+		"size": 0.75,
+		"description": [
+			{
+				"text": "+25% Stamina for Expertise",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "winter_rpg_skill_tree:textures/icons/expertise.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:expertise_stamina",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "80l86iyqe3t3mpsj"
+		}
+	},
+	"expertise_absorption": {
+		"title": "Expertise: Absorption",
+		"size": 0.75,
+		"description": [
+			{
+				"text": "+2 Absorption for Expertise",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "winter_rpg_skill_tree:textures/icons/expertise.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:expertise_absorption",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "6fpj12897wimres0"
+		}
+	},
+	"expertise_toughness": {
+		"title": "Expertise: Armor Toughness",
+		"size": 0.75,
+		"description": [
+			{
+				"text": "+2 Armor Toughness for Expertise",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "winter_rpg_skill_tree:textures/icons/expertise.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:expertise_toughness",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "iyltxc29enpkh6rp"
+		}
+	},
+	"expertise_armor": {
+		"title": "Expertise: Armor",
+		"size": 0.75,
+		"description": [
+			{
+				"text": "+4 Armor for Expertise",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "winter_rpg_skill_tree:textures/icons/expertise.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:expertise_armor",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "lkfvjm1al50lcj0c"
+		}
+	},
+	"expertise_regeneration": {
+		"title": "Expertise: Natural Regeneration",
+		"size": 0.75,
+		"description": [
+			{
+				"text": "+50% Natural Regeneration for Expertise",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "winter_rpg_skill_tree:textures/icons/expertise.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:expertise_natural_regeneration",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1gddgq595yuqdwc0"
+		}
+	},
+	"expertise_stealth": {
+		"title": "Expertise: Stealth",
+		"size": 0.75,
+		"description": [
+			{
+				"text": "+1 Stealth for Expertise",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "winter_rpg_skill_tree:textures/icons/expertise.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:expertise_stealth",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "oj8ebk7g45q6691g"
+		}
+	},
+	"minor_endurance": {
+		"title": "Minor Endurance",
+		"size": 0.75,
+		"description": {
+			"text": "+1 Health \n+2.5% Exhaustion Efficiency",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "instant_health"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:stamina",
+					"value": 0.025,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "rflm4y764c7v9g07"
+		}
+	},
+	"minor_perception": {
+		"title": "Minor Perception",
+		"size": 0.75,
+		"description": {
+			"text": "+1% Critical Strike Chance \n+0.05 Fortune",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "ender_eye"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:ranged_crit_chance",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:meele_crit_chance",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:fortune",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ahr5572uqq4iq9bx"
+		}
+	},
+	"minor_intelligence": {
+		"title": "Minor Intelligence",
+		"size": 0.75,
+		"description": {
+			"text": "+2.5% Experience \n+2.5% Healing",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "book"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:experience",
+					"value": 0.025,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:healing",
+					"value": 0.025,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "bcqlzu13agyk52k3"
+		}
+	}
+}

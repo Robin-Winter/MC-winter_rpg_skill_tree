@@ -1,0 +1,680 @@
+{
+	"root_scout_novice": {
+		"title": "Novice Scout",
+		"size": 1.25,
+		"description": {
+			"text": "Level up by killing raiders and sprinting.",
+			"color": "blue"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+		],
+		"metadata": {
+			"icon": "nfxda2l1slfghfat"
+		}
+	},
+	"scout_veteran": {
+		"title": "Veteran Scout",
+		"size": 1.25,
+		"required_spent_points": 8,
+		"description": [
+			{
+				"text": "Requires 8 spent Skill Points!",
+				"color": "yellow"
+			},
+			{
+				"text": "\n\n+20% Sprint Speed",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:sprinting_speed",
+					"value": 0.2,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "dkzbp701x9v2ynuw"
+		}
+	},
+	"scout_elite": {
+		"title": "Elite Scout",
+		"size": 1.25,
+		"required_spent_points": 19,
+		"description": [
+			{
+				"text": "Requires 19 spent Skill Points!",
+				"color": "yellow"
+			},
+			{
+				"text": "\n\n+15% Sprint Speed",
+				"color": "green"
+			},
+			{
+				"text": "\n+10% Health",
+				"color": "green"
+			},
+			{
+				"text": "\nUnlocks Specializations in the main tree.",
+				"color": "blue"
+			}
+		],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "puffish_skills skills unlock @s winter_rpg_skill_tree:main v4ai4l3lhtjxmhop",
+					"lock_command": "puffish_skills skills lock @s winter_rpg_skill_tree:main v4ai4l3lhtjxmhop"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:sprinting_speed",
+					"value": 0.15,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "nke8d171afxnadsj"
+		}
+	},
+	"archery_1": {
+		"title": "Archery I",
+		"size": 1,
+		"description": {
+			"text": "+10% Ranged Damage\n+5% Bow Projectile Speed",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:bow_projectile_speed",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "my5c2wqoavl69bgj"
+		}
+	},
+	"archery_2": {
+		"title": "Archery II",
+		"size": 1,
+		"description": {
+			"text": "+5% Ranged Damage\n+10% Bow Projectile Speed",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:bow_projectile_speed",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "o5ugkwaou67vm085"
+		}
+	},
+	"archery_3": {
+		"title": "Archery III",
+		"size": 1,
+		"description": {
+			"text": "+10% Ranged Damage\n+10% Bow Projectile Speed",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:bow_projectile_speed",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "2mko2junqtesonr9"
+		}
+	},
+	"skirmisher_1": {
+		"title": "Skirmisher I",
+		"size": 1,
+		"description": {
+			"text": "+40% Slow Duration\n+5% Movement Speed",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "tipped_arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:slow_duration",
+					"value": 0.4,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "pehug932lvwpdpq6"
+		}
+	},
+	"skirmisher_2": {
+		"title": "Skirmisher II",
+		"size": 1,
+		"description": {
+			"text": "+20% Slow Duration\n+10% Movement Speed",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "tipped_arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:slow_duration",
+					"value": 0.2,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "bxxjr4vpmhv1nko8"
+		}
+	},
+	"skirmisher_3": {
+		"title": "Skirmisher III",
+		"size": 1,
+		"description": {
+			"text": "+40% Slow Duration\n+10% Movement Speed",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "tipped_arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:slow_duration",
+					"value": 0.4,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "u3ocxwo79d4gxvcn"
+		}
+	},
+	"slow_ability": {
+		"title": "Slow",
+		"size": 1,
+		"description": {
+			"text": "Gain a 20% Chance to slow enemies by 20% for 2 seconds on ranged hits.",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "slowness"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:slow_ranged_inflict_chance",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "84d8bam2f2qgjl7k"
+		}
+	},
+	"slow_meele": {
+		"title": "Slow: Hit Chance",
+		"size": 0.75,
+		"description": {
+			"text": "+5% Slow Chance on Meele & Ranged Attacks",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "slowness"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:slow_meele_inflict_chance",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:slow_ranged_inflict_chance",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "iw14v42iaytd6fd1"
+		}
+	},
+	"slow_ranged": {
+		"title": "Slow: Ranged Hit Chance",
+		"size": 0.75,
+		"description": {
+			"text": "+10% Slow Chance on Ranged Attacks",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "slowness"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:slow_ranged_inflict_chance",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "mcfp2cn805yr93cg"
+		}
+	},
+	"slow_duration": {
+		"title": "Slow: Duration",
+		"size": 1,
+		"description": {
+			"text": "+50% Slow Duration",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "slowness"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:slow_duration",
+					"value": 0.5,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "80assdpjulchats4"
+		}
+	},
+	"slow_strength": {
+		"title": "Slow: Strength",
+		"size": 1,
+		"description": {
+			"text": "Slow reduces movement speed by an additional 15%.",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "slowness"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:slow_strength",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "qxe19r9233541cpp"
+		}
+	},
+	"minor_dexterity": {
+		"title": "Minor Dexterity",
+		"size": 0.75,
+		"description": {
+			"text": "+2.5% Ranged Damage \n+1.5% Sprint Speed",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "leather_boots"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 0.025,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:sprinting_speed",
+					"value": 0.015,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ww5sft6qaydc7y8k"
+		}
+	},
+	"minor_perception": {
+		"title": "Minor Perception",
+		"size": 0.75,
+		"description": {
+			"text": "+1% Critical Strike Chance \n+0.05 Fortune",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "ender_eye"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:ranged_crit_chance",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "winter_custom_attributes:meele_crit_chance",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:fortune",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ahr5572uqq4iq9bx"
+		}
+	},
+	"minor_spirit": {
+		"title": "Minor Spirit",
+		"size": 0.75,
+		"description": {
+			"text": "+5% Natural Regeneration \n+2.5% Magic Damage",
+			"color": "green"
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "conduit_power"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:natural_regeneration",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_damage",
+					"value": 0.025,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "g9ctcz027hsm4cid"
+		}
+	}
+}

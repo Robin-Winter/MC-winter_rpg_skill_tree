@@ -1,0 +1,79 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "5000+(500*level)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:increase_stat",
+			"data": {
+				"variables": {
+					"is_sprinting": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "minecraft.custom:minecraft.sprint_one_cm"
+								}
+							}
+						]
+					},
+					"amount": {
+						"operations": [
+							{
+								"type": "get_increase_amount"
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_sprinting",
+						"expression": "amount*0.125"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:kill_entity",
+			"data": {
+				"variables": {
+					"dropped_xp": {
+						"operations": [
+							{
+								"type": "get_dropped_experience"
+							}
+						]
+					},
+					"is_raider": {
+						"operations": [
+							{
+								"type": "get_killed_living_entity"
+							},
+							{
+								"type": "get_type"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"entity_type": "#minecraft:raiders"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_raider",
+						"expression": "dropped_xp*30"
+					}
+				]
+			}
+		}
+	]
+}

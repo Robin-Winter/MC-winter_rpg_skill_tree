@@ -24,8 +24,6 @@ public class WinterRPGSkillTreeClient {
 
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
-        // Some client setup code
-        WinterRPGSkillTree.LOGGER.info("HELLO FROM CLIENT SETUP");
-        WinterRPGSkillTree.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+
     }
 }

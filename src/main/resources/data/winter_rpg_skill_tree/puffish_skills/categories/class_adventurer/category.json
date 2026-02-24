@@ -1,0 +1,13 @@
+{
+	"unlocked_by_default": false,
+	"title": "Class: Adventurer",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "stone_sword"
+		}
+	},
+	"starting_points": 1,
+	"spent_points_limit": 20,
+	"background": "textures/gui/advancements/backgrounds/adventure.png"
+}

@@ -1,0 +1,1040 @@
+{
+	"xt8u68holuwgmzl5": {
+		"definition": "root_start",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"riuxgi2gvhl3vrrj": {
+		"definition": "endurance",
+		"x": -32,
+		"y": 0,
+		"root": false
+	},
+	"wtrdq7vnzacvsvsa": {
+		"definition": "strength",
+		"x": 0,
+		"y": -32,
+		"root": false
+	},
+	"eipiua5dobvb6evm": {
+		"definition": "dexterity",
+		"x": 32,
+		"y": 0,
+		"root": false
+	},
+	"t3two208xvevaj16": {
+		"definition": "perception",
+		"x": 0,
+		"y": 32,
+		"root": false
+	},
+	"uc9aht84cnmkktag": {
+		"definition": "minor_perception",
+		"x": -32,
+		"y": 96,
+		"root": false
+	},
+	"i7svp0qmc2el5wlb": {
+		"definition": "perception",
+		"x": -32,
+		"y": 160,
+		"root": false
+	},
+	"yw9ln3n6ilc2wpnl": {
+		"definition": "minor_perception",
+		"x": -96,
+		"y": 160,
+		"root": false
+	},
+	"5xo30bvtu2ev6xqz": {
+		"definition": "minor_perception",
+		"x": 32,
+		"y": 96,
+		"root": false
+	},
+	"lzin16i5hzse5npv": {
+		"definition": "perception",
+		"x": 32,
+		"y": 160,
+		"root": false
+	},
+	"jfz0o8q5y5vx9fhh": {
+		"definition": "minor_perception",
+		"x": 96,
+		"y": 160,
+		"root": false
+	},
+	"kfduoo5byvibs7t1": {
+		"definition": "minor_dexterity",
+		"x": 96,
+		"y": 32,
+		"root": false
+	},
+	"fb67vum9nbsl9ozw": {
+		"definition": "dexterity",
+		"x": 160,
+		"y": 32,
+		"root": false
+	},
+	"yyckytu0jpl3o2go": {
+		"definition": "minor_dexterity",
+		"x": 160,
+		"y": 96,
+		"root": false
+	},
+	"xrni0omtfylxvrtu": {
+		"definition": "minor_dexterity",
+		"x": 96,
+		"y": -32,
+		"root": false
+	},
+	"o5du0s9rgfri8u8x": {
+		"definition": "minor_dexterity",
+		"x": 160,
+		"y": -96,
+		"root": false
+	},
+	"2u6paiajshczd5w0": {
+		"definition": "minor_strength",
+		"x": 32,
+		"y": -96,
+		"root": false
+	},
+	"iorxtpxh8jlrw7am": {
+		"definition": "strength",
+		"x": 32,
+		"y": -160,
+		"root": false
+	},
+	"6u4lgevc1r4lvypd": {
+		"definition": "minor_strength",
+		"x": 96,
+		"y": -160,
+		"root": false
+	},
+	"kgo9ch6aczxcbm3l": {
+		"definition": "minor_strength",
+		"x": -32,
+		"y": -96,
+		"root": false
+	},
+	"zjhotq2b6100lque": {
+		"definition": "strength",
+		"x": -32,
+		"y": -160,
+		"root": false
+	},
+	"zb5bivs2ypmqk7az": {
+		"definition": "minor_strength",
+		"x": -96,
+		"y": -160,
+		"root": false
+	},
+	"pag7qfj0zpq6ktq3": {
+		"definition": "minor_endurance",
+		"x": -96,
+		"y": -32,
+		"root": false
+	},
+	"akn9axp7mpzqpsbd": {
+		"definition": "endurance",
+		"x": -160,
+		"y": -32,
+		"root": false
+	},
+	"0uauqyj9nd9eve3s": {
+		"definition": "minor_endurance",
+		"x": -160,
+		"y": -96,
+		"root": false
+	},
+	"x8lao7ef8reo2s98": {
+		"definition": "minor_endurance",
+		"x": -96,
+		"y": 32,
+		"root": false
+	},
+	"yc0xrp2y24lkmtr4": {
+		"definition": "endurance",
+		"x": -160,
+		"y": 32,
+		"root": false
+	},
+	"x1h5p15mus3d3djj": {
+		"definition": "minor_endurance",
+		"x": -160,
+		"y": 96,
+		"root": false
+	},
+	"8u8a2z244csn9853": {
+		"definition": "endurance",
+		"x": -224,
+		"y": 0,
+		"root": false
+	},
+	"luvhgkh3p3tdu4ne": {
+		"definition": "strength",
+		"x": 0,
+		"y": -224,
+		"root": false
+	},
+	"wyvmm9t0ojph8qnc": {
+		"definition": "dexterity",
+		"x": 224,
+		"y": 0,
+		"root": false
+	},
+	"3g0e7wdujkrewcvo": {
+		"definition": "perception",
+		"x": 0,
+		"y": 224,
+		"root": false
+	},
+	"ek1uj8mastlbmb1c": {
+		"definition": "call_land",
+		"x": -64,
+		"y": -64,
+		"root": false
+	},
+	"n3z3wrti1rloadi0": {
+		"definition": "call_mountain",
+		"x": 64,
+		"y": -64,
+		"root": false
+	},
+	"0fkkxcxqg3aebnd6": {
+		"definition": "call_city",
+		"x": -64,
+		"y": 64,
+		"root": false
+	},
+	"3q98nfqyw8f9869v": {
+		"definition": "minor_dexterity",
+		"x": 192,
+		"y": 128,
+		"root": false
+	},
+	"9x8prg75qvljboom": {
+		"definition": "minor_dexterity",
+		"x": 192,
+		"y": -128,
+		"root": false
+	},
+	"kxksakey6ytaqyna": {
+		"definition": "minor_perception",
+		"x": 128,
+		"y": 192,
+		"root": false
+	},
+	"39ywbfbz7aefixp9": {
+		"definition": "minor_perception",
+		"x": -128,
+		"y": 192,
+		"root": false
+	},
+	"xya504odky1ih8qp": {
+		"definition": "minor_strength",
+		"x": -128,
+		"y": -192,
+		"root": false
+	},
+	"ssu6t99ntsv6oico": {
+		"definition": "minor_strength",
+		"x": 128,
+		"y": -192,
+		"root": false
+	},
+	"xwncf7oll9dhn4ju": {
+		"definition": "minor_endurance",
+		"x": -192,
+		"y": -128,
+		"root": false
+	},
+	"3wsx5gui6ya67zsh": {
+		"definition": "minor_endurance",
+		"x": -192,
+		"y": 128,
+		"root": false
+	},
+	"syhsv63zqmgeztdi": {
+		"definition": "call_sea",
+		"x": 64,
+		"y": 64,
+		"root": false
+	},
+	"0x3mba89rfytx47o": {
+		"definition": "intelligence",
+		"x": -160,
+		"y": 160,
+		"root": false
+	},
+	"3mxa6f74yfamn0tg": {
+		"definition": "tenacity",
+		"x": -160,
+		"y": -160,
+		"root": false
+	},
+	"dd57sp8nspyzyoqs": {
+		"definition": "spirit",
+		"x": 160,
+		"y": 160,
+		"root": false
+	},
+	"sk6kw7l4owmk00r4": {
+		"definition": "ferocity",
+		"x": 160,
+		"y": -160,
+		"root": false
+	},
+	"hzoz69kv7xzu30w5": {
+		"definition": "minor_ferocity",
+		"x": 256,
+		"y": -192,
+		"root": false
+	},
+	"uasnd1rc6ct5880w": {
+		"definition": "ferocity",
+		"x": 320,
+		"y": -160,
+		"root": false
+	},
+	"eh31lctcna6rqloc": {
+		"definition": "minor_ferocity",
+		"x": 352,
+		"y": -128,
+		"root": false
+	},
+	"ctnnscw8ospwmvri": {
+		"definition": "minor_ferocity",
+		"x": 416,
+		"y": -96,
+		"root": false
+	},
+	"on7hd0bgmo9f7oyb": {
+		"definition": "minor_ferocity",
+		"x": 192,
+		"y": -256,
+		"root": false
+	},
+	"kyxscnxdkboc7t31": {
+		"definition": "ferocity",
+		"x": 160,
+		"y": -320,
+		"root": false
+	},
+	"o9eyu8e6pry0xa7n": {
+		"definition": "minor_ferocity",
+		"x": 128,
+		"y": -352,
+		"root": false
+	},
+	"zwp0z99wwe7c3u23": {
+		"definition": "minor_ferocity",
+		"x": 96,
+		"y": -416,
+		"root": false
+	},
+	"tzsb1bbf0wrfvi4r": {
+		"definition": "ferocity",
+		"x": 224,
+		"y": -224,
+		"root": false
+	},
+	"thbo5u5ovydh406h": {
+		"definition": "spirit",
+		"x": 224,
+		"y": 224,
+		"root": false
+	},
+	"5lv4718hblwp813f": {
+		"definition": "minor_spirit",
+		"x": 256,
+		"y": 192,
+		"root": false
+	},
+	"zaqckv4i378gs5bp": {
+		"definition": "spirit",
+		"x": 320,
+		"y": 160,
+		"root": false
+	},
+	"8t37p4g1k20we69y": {
+		"definition": "minor_spirit",
+		"x": 352,
+		"y": 128,
+		"root": false
+	},
+	"pddhwf0jfionul5u": {
+		"definition": "minor_spirit",
+		"x": 416,
+		"y": 96,
+		"root": false
+	},
+	"vd2tbymhit79s5xe": {
+		"definition": "minor_spirit",
+		"x": 192,
+		"y": 256,
+		"root": false
+	},
+	"krhtb4c69ydy6cps": {
+		"definition": "spirit",
+		"x": 160,
+		"y": 320,
+		"root": false
+	},
+	"0b68wfkuffja7agw": {
+		"definition": "minor_spirit",
+		"x": 128,
+		"y": 352,
+		"root": false
+	},
+	"ufphnsbfzymlo6ub": {
+		"definition": "minor_spirit",
+		"x": 96,
+		"y": 416,
+		"root": false
+	},
+	"bzymr6mrux6dlrqv": {
+		"definition": "tenacity",
+		"x": -224,
+		"y": -224,
+		"root": false
+	},
+	"0zjjgbzqsg7h4omt": {
+		"definition": "minor_tenacity",
+		"x": -192,
+		"y": -256,
+		"root": false
+	},
+	"xv87c9xbd8cefbwe": {
+		"definition": "tenacity",
+		"x": -160,
+		"y": -320,
+		"root": false
+	},
+	"16el6v0nrmllba3r": {
+		"definition": "minor_tenacity",
+		"x": -128,
+		"y": -352,
+		"root": false
+	},
+	"yuxg6253vwkrocqi": {
+		"definition": "minor_tenacity",
+		"x": -96,
+		"y": -416,
+		"root": false
+	},
+	"edy1f3utx3urdhvc": {
+		"definition": "minor_tenacity",
+		"x": -256,
+		"y": -192,
+		"root": false
+	},
+	"ybivz5iqqi5c4w48": {
+		"definition": "tenacity",
+		"x": -320,
+		"y": -160,
+		"root": false
+	},
+	"8usfysh46gomhdk5": {
+		"definition": "minor_tenacity",
+		"x": -352,
+		"y": -128,
+		"root": false
+	},
+	"rjz9vvg2lv9l344n": {
+		"definition": "minor_tenacity",
+		"x": -416,
+		"y": -96,
+		"root": false
+	},
+	"t5v6n1lc7ahriba4": {
+		"definition": "intelligence",
+		"x": -224,
+		"y": 224,
+		"root": false
+	},
+	"5ywpima9hw9yjz1k": {
+		"definition": "minor_intelligence",
+		"x": -192,
+		"y": 256,
+		"root": false
+	},
+	"occnk3wnl8f0ikef": {
+		"definition": "intelligence",
+		"x": -160,
+		"y": 320,
+		"root": false
+	},
+	"a7vp2uqmnfosz527": {
+		"definition": "minor_intelligence",
+		"x": -128,
+		"y": 352,
+		"root": false
+	},
+	"vcgilmj02g1igewt": {
+		"definition": "minor_intelligence",
+		"x": -256,
+		"y": 192,
+		"root": false
+	},
+	"yy926u0o7db6u6xk": {
+		"definition": "intelligence",
+		"x": -320,
+		"y": 160,
+		"root": false
+	},
+	"w7uoxwkuheaaevfh": {
+		"definition": "minor_intelligence",
+		"x": -352,
+		"y": 128,
+		"root": false
+	},
+	"nso5vcgseleg8ie2": {
+		"definition": "minor_intelligence",
+		"x": -416,
+		"y": 96,
+		"root": false
+	},
+	"zt2ffq5myoherroe": {
+		"definition": "minor_intelligence",
+		"x": -96,
+		"y": 416,
+		"root": false
+	},
+	"idp3luxkqx9j6ooe": {
+		"definition": "minor_endurance",
+		"x": -352,
+		"y": -32,
+		"root": false
+	},
+	"tbvttv6aktyphu7a": {
+		"definition": "minor_endurance",
+		"x": -288,
+		"y": -96,
+		"root": false
+	},
+	"76zlbojqufi7kiub": {
+		"definition": "minor_endurance",
+		"x": -288,
+		"y": 96,
+		"root": false
+	},
+	"1xnzmc0vu58ooazs": {
+		"definition": "endurance",
+		"x": -256,
+		"y": -64,
+		"root": false
+	},
+	"xx8f0vl5rttyjbpr": {
+		"definition": "endurance",
+		"x": -320,
+		"y": 64,
+		"root": false
+	},
+	"xi542q8b0jd2vzmj": {
+		"definition": "endurance",
+		"x": -320,
+		"y": -64,
+		"root": false
+	},
+	"xc09xd2pglpwahpw": {
+		"definition": "minor_endurance",
+		"x": -256,
+		"y": -128,
+		"root": false
+	},
+	"l0oxyt2ntcukif19": {
+		"definition": "minor_endurance",
+		"x": -256,
+		"y": 128,
+		"root": false
+	},
+	"dj7ri8y0tsu7hsks": {
+		"definition": "minor_endurance",
+		"x": -352,
+		"y": 32,
+		"root": false
+	},
+	"esxy8rs30kuibvbl": {
+		"definition": "endurance",
+		"x": -256,
+		"y": 64,
+		"root": false
+	},
+	"2mvi7c6yen804b9c": {
+		"definition": "strength",
+		"x": -64,
+		"y": -256,
+		"root": false
+	},
+	"n5w5lwivirlff2lp": {
+		"definition": "minor_strength",
+		"x": 128,
+		"y": -256,
+		"root": false
+	},
+	"ix41m58mszlep4kz": {
+		"definition": "minor_strength",
+		"x": -128,
+		"y": -256,
+		"root": false
+	},
+	"6jhg23bjco235rcm": {
+		"definition": "minor_strength",
+		"x": -96,
+		"y": -288,
+		"root": false
+	},
+	"t4zitsp0q3s3olsl": {
+		"definition": "minor_strength",
+		"x": 96,
+		"y": -288,
+		"root": false
+	},
+	"6nat8lo2jx7igdci": {
+		"definition": "strength",
+		"x": 64,
+		"y": -320,
+		"root": false
+	},
+	"nfpgj7av0qxeo9aq": {
+		"definition": "strength",
+		"x": -64,
+		"y": -320,
+		"root": false
+	},
+	"etbl1qta8sea5537": {
+		"definition": "minor_strength",
+		"x": -32,
+		"y": -352,
+		"root": false
+	},
+	"ev25i3t62ek76jru": {
+		"definition": "strength",
+		"x": 64,
+		"y": -256,
+		"root": false
+	},
+	"v1elgjpq6a3wv85s": {
+		"definition": "minor_strength",
+		"x": 32,
+		"y": -352,
+		"root": false
+	},
+	"wx1t435gx8ixsft6": {
+		"definition": "dexterity",
+		"x": 256,
+		"y": -64,
+		"root": false
+	},
+	"dblkq93zxak46y10": {
+		"definition": "minor_dexterity",
+		"x": 256,
+		"y": -128,
+		"root": false
+	},
+	"hoxscec02u32fp7e": {
+		"definition": "minor_dexterity",
+		"x": 256,
+		"y": 128,
+		"root": false
+	},
+	"8ixnl0x8pnpqw1gh": {
+		"definition": "minor_dexterity",
+		"x": 288,
+		"y": 96,
+		"root": false
+	},
+	"0k5m28atmma36apv": {
+		"definition": "minor_dexterity",
+		"x": 288,
+		"y": -96,
+		"root": false
+	},
+	"minweoqhl0u6a22p": {
+		"definition": "dexterity",
+		"x": 320,
+		"y": -64,
+		"root": false
+	},
+	"rbwovpcuzwpvyqg9": {
+		"definition": "dexterity",
+		"x": 320,
+		"y": 64,
+		"root": false
+	},
+	"r2m256zmdpuc9mkt": {
+		"definition": "minor_dexterity",
+		"x": 352,
+		"y": 32,
+		"root": false
+	},
+	"213ihut9gogysos8": {
+		"definition": "minor_dexterity",
+		"x": 352,
+		"y": -32,
+		"root": false
+	},
+	"fab87eea72snutyi": {
+		"definition": "dexterity",
+		"x": 256,
+		"y": 64,
+		"root": false
+	},
+	"ont5kgg9bfi9ent5": {
+		"definition": "perception",
+		"x": -64,
+		"y": 256,
+		"root": false
+	},
+	"xa0t3wuotslka9ye": {
+		"definition": "minor_perception",
+		"x": 128,
+		"y": 256,
+		"root": false
+	},
+	"8pfdj8tksyf8cxtx": {
+		"definition": "minor_perception",
+		"x": -128,
+		"y": 256,
+		"root": false
+	},
+	"liiljsx2n7d2yu7b": {
+		"definition": "minor_perception",
+		"x": -96,
+		"y": 288,
+		"root": false
+	},
+	"cjz6hcxnxiqrmrqs": {
+		"definition": "minor_perception",
+		"x": 96,
+		"y": 288,
+		"root": false
+	},
+	"00lhi0qwl0czpn9j": {
+		"definition": "perception",
+		"x": 64,
+		"y": 320,
+		"root": false
+	},
+	"x081dlduje73equj": {
+		"definition": "perception",
+		"x": -64,
+		"y": 320,
+		"root": false
+	},
+	"7t2glxhstuxbib9f": {
+		"definition": "minor_perception",
+		"x": -32,
+		"y": 352,
+		"root": false
+	},
+	"tk7iu1q9lpy6ge1t": {
+		"definition": "perception",
+		"x": 64,
+		"y": 256,
+		"root": false
+	},
+	"y48ofte4v6zmt0on": {
+		"definition": "minor_perception",
+		"x": 32,
+		"y": 352,
+		"root": false
+	},
+	"tqr6rxyaxs2mtdd1": {
+		"definition": "minor_tenacity",
+		"x": -384,
+		"y": -160,
+		"root": false
+	},
+	"ui476e8whj7myvab": {
+		"definition": "minor_tenacity",
+		"x": -160,
+		"y": -384,
+		"root": false
+	},
+	"zct2cmb4jl95l931": {
+		"definition": "tenacity",
+		"x": -416,
+		"y": -192,
+		"root": false
+	},
+	"n2d3y0ytorm7jybo": {
+		"definition": "tenacity",
+		"x": -192,
+		"y": -416,
+		"root": false
+	},
+	"54wt83zj586vyqij": {
+		"definition": "minor_tenacity",
+		"x": -160,
+		"y": -448,
+		"root": false
+	},
+	"0snfnbi53mbog670": {
+		"definition": "minor_tenacity",
+		"x": -448,
+		"y": -160,
+		"root": false
+	},
+	"65ek5zsob1953wi3": {
+		"definition": "minor_tenacity",
+		"x": -128,
+		"y": -480,
+		"root": false
+	},
+	"zspczjakt351m2z1": {
+		"definition": "minor_tenacity",
+		"x": -480,
+		"y": -128,
+		"root": false
+	},
+	"ikfs8b1z8g33isip": {
+		"definition": "tenacity",
+		"x": -480,
+		"y": -64,
+		"root": false
+	},
+	"vxzvnq8d7t5ckhz3": {
+		"definition": "tenacity",
+		"x": -64,
+		"y": -480,
+		"root": false
+	},
+	"atkbz1xrq4c5z6o4": {
+		"definition": "minor_ferocity",
+		"x": 160,
+		"y": -384,
+		"root": false
+	},
+	"dqj1g831wnhze6q9": {
+		"definition": "ferocity",
+		"x": 192,
+		"y": -416,
+		"root": false
+	},
+	"torp7wvv2hwi5tai": {
+		"definition": "minor_ferocity",
+		"x": 160,
+		"y": -448,
+		"root": false
+	},
+	"ax21j14d9r7v795i": {
+		"definition": "minor_ferocity",
+		"x": 128,
+		"y": -480,
+		"root": false
+	},
+	"7vocm33ag0oje0n5": {
+		"definition": "ferocity",
+		"x": 64,
+		"y": -480,
+		"root": false
+	},
+	"1veppmb4dehx232u": {
+		"definition": "minor_ferocity",
+		"x": 384,
+		"y": -160,
+		"root": false
+	},
+	"l6dkjsiy5zhc5rlc": {
+		"definition": "ferocity",
+		"x": 416,
+		"y": -192,
+		"root": false
+	},
+	"lga0oouap30uxwqm": {
+		"definition": "minor_ferocity",
+		"x": 448,
+		"y": -160,
+		"root": false
+	},
+	"n5ifdisds9hn4bag": {
+		"definition": "minor_ferocity",
+		"x": 480,
+		"y": -128,
+		"root": false
+	},
+	"5mztgvwab7pn60ma": {
+		"definition": "ferocity",
+		"x": 480,
+		"y": -64,
+		"root": false
+	},
+	"3a6esfxp4t8dlbu5": {
+		"definition": "minor_spirit",
+		"x": 384,
+		"y": 160,
+		"root": false
+	},
+	"wibr9d6q9hhjbdmt": {
+		"definition": "spirit",
+		"x": 416,
+		"y": 192,
+		"root": false
+	},
+	"okqkn06zqf4n4i6s": {
+		"definition": "minor_spirit",
+		"x": 448,
+		"y": 160,
+		"root": false
+	},
+	"ugn20o7qvj0xh6w1": {
+		"definition": "minor_spirit",
+		"x": 480,
+		"y": 128,
+		"root": false
+	},
+	"g5dyt32502ogbzx9": {
+		"definition": "spirit",
+		"x": 480,
+		"y": 64,
+		"root": false
+	},
+	"lfcg1ur0wctgo5m6": {
+		"definition": "minor_spirit",
+		"x": 160,
+		"y": 384,
+		"root": false
+	},
+	"1ds94kix5cjgtu2w": {
+		"definition": "minor_spirit",
+		"x": 128,
+		"y": 480,
+		"root": false
+	},
+	"8pm0e5drrbto9awb": {
+		"definition": "spirit",
+		"x": 192,
+		"y": 416,
+		"root": false
+	},
+	"z7qmrvof6k8skuxx": {
+		"definition": "minor_spirit",
+		"x": 160,
+		"y": 448,
+		"root": false
+	},
+	"ajpu2576sv41638p": {
+		"definition": "spirit",
+		"x": 64,
+		"y": 480,
+		"root": false
+	},
+	"0briyuzh6d161doj": {
+		"definition": "minor_intelligence",
+		"x": -160,
+		"y": 384,
+		"root": false
+	},
+	"pv56z7htiiujsfqv": {
+		"definition": "intelligence",
+		"x": -192,
+		"y": 416,
+		"root": false
+	},
+	"aa1m1yyxbkancwvf": {
+		"definition": "minor_intelligence",
+		"x": -160,
+		"y": 448,
+		"root": false
+	},
+	"kgwqb8rxjookoru2": {
+		"definition": "minor_intelligence",
+		"x": -128,
+		"y": 480,
+		"root": false
+	},
+	"n12et2hdddcj7a85": {
+		"definition": "intelligence",
+		"x": -64,
+		"y": 480,
+		"root": false
+	},
+	"aa98a2o35al7xpvb": {
+		"definition": "minor_intelligence",
+		"x": -384,
+		"y": 160,
+		"root": false
+	},
+	"ci6iq5m2nlxuyrbe": {
+		"definition": "intelligence",
+		"x": -416,
+		"y": 192,
+		"root": false
+	},
+	"okmgqejtk2ta7v6z": {
+		"definition": "minor_intelligence",
+		"x": -448,
+		"y": 160,
+		"root": false
+	},
+	"l85atlimt5ikj5gk": {
+		"definition": "minor_intelligence",
+		"x": -480,
+		"y": 128,
+		"root": false
+	},
+	"8y9h9kqzqwl4vqky": {
+		"definition": "intelligence",
+		"x": -480,
+		"y": 64,
+		"root": false
+	},
+	"716kw0uc2hu05ujh": {
+		"definition": "class_guard",
+		"x": -192,
+		"y": -192,
+		"root": false
+	},
+	"7olmupe766na3i4x": {
+		"definition": "class_adventurer",
+		"x": 192,
+		"y": -192,
+		"root": false
+	},
+	"ceq5q0dl8a0lsxmz": {
+		"definition": "class_scout",
+		"x": 192,
+		"y": 192,
+		"root": false
+	},
+	"wtl2fjyc7l4v3btj": {
+		"definition": "class_scholar_completed",
+		"x": -288,
+		"y": 288,
+		"root": false
+	},
+	"v4ai4l3lhtjxmhop": {
+		"definition": "class_scout_completed",
+		"x": 288,
+		"y": 288,
+		"root": false
+	},
+	"in2rfi92pn7qgq6g": {
+		"definition": "class_adventurer_completed",
+		"x": 288,
+		"y": -288,
+		"root": false
+	},
+	"uh8w06qornmi6ple": {
+		"definition": "class_guard_completed",
+		"x": -288,
+		"y": -288,
+		"root": false
+	},
+	"sb4nyiewtj45skaj": {
+		"definition": "dexterity",
+		"x": 160,
+		"y": -32,
+		"root": false
+	},
+	"u3u08d4b1xyp87xx": {
+		"definition": "class_scholar",
+		"x": -192,
+		"y": 192,
+		"root": false
+	}
+}

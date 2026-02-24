@@ -1,0 +1,158 @@
+{
+	"bjal74u8udyw1voe": {
+		"definition": "root_adventurer_novice",
+		"x": 0,
+		"y": 96,
+		"root": true
+	},
+	"pxqspk70fvyjiuak": {
+		"definition": "tactic_hitrun",
+		"x": -32,
+		"y": 128,
+		"root": false
+	},
+	"cfzbiwvs8cen9kdu": {
+		"definition": "tactic_overwhelm",
+		"x": 32,
+		"y": 128,
+		"root": false
+	},
+	"bjoenvcrqny8r68w": {
+		"definition": "tactic_overwhelm_ranged_crit_chance",
+		"x": 32,
+		"y": 192,
+		"root": false
+	},
+	"cgcx3usq8cyr909p": {
+		"definition": "tactic_hitrun_meele_crit_chance",
+		"x": -32,
+		"y": 192,
+		"root": false
+	},
+	"ru38pjuzte4bgkvz": {
+		"definition": "minor_ferocity",
+		"x": 0,
+		"y": 224,
+		"root": false
+	},
+	"jfmsp4m1lkfb0gnm": {
+		"definition": "minor_strength",
+		"x": -32,
+		"y": 64,
+		"root": false
+	},
+	"s9ibvap0o2etdefw": {
+		"definition": "minor_dexterity",
+		"x": 32,
+		"y": 64,
+		"root": false
+	},
+	"tqxpfk6suf6lbbi1": {
+		"definition": "adventurer_veteran",
+		"x": 0,
+		"y": 32,
+		"root": false
+	},
+	"k8sjvyqvfiv6ahzc": {
+		"definition": "tactic_overwhelm_meele_damage",
+		"x": -96,
+		"y": 96,
+		"root": false
+	},
+	"umz4vcg66mvrui8l": {
+		"definition": "tactic_hitrun_ranged_damage",
+		"x": -128,
+		"y": 128,
+		"root": false
+	},
+	"1n6qwkspn8qj5a4u": {
+		"definition": "tactic_hitrun_ranged_hit_chance",
+		"x": 96,
+		"y": 96,
+		"root": false
+	},
+	"ht9g20j7em6ora8u": {
+		"definition": "tactic_overwhelm_meele_chance",
+		"x": 128,
+		"y": 128,
+		"root": false
+	},
+	"2k4a4mklg5m8n3g0": {
+		"definition": "tactic_overwhelm_duration",
+		"x": 32,
+		"y": 0,
+		"root": false
+	},
+	"78l4s2wflidbtmqo": {
+		"definition": "tactic_hitrun_duration",
+		"x": -32,
+		"y": 0,
+		"root": false
+	},
+	"h9w0rpmgwjqc9f39": {
+		"definition": "tactic_assault",
+		"x": 0,
+		"y": -32,
+		"root": false
+	},
+	"rfhnv8113gwx86uz": {
+		"definition": "minor_strength",
+		"x": -32,
+		"y": -64,
+		"root": false
+	},
+	"q88vnwjimcjlayhz": {
+		"definition": "minor_dexterity",
+		"x": 32,
+		"y": -64,
+		"root": false
+	},
+	"t1w31tank5wikb3v": {
+		"definition": "tactic_assault_armor_shred",
+		"x": -32,
+		"y": -128,
+		"root": false
+	},
+	"c81z2bh4pck2ef36": {
+		"definition": "tactic_assault_critical_damage",
+		"x": 32,
+		"y": -128,
+		"root": false
+	},
+	"4txbaqsc52iutbwd": {
+		"definition": "minor_ferocity",
+		"x": 0,
+		"y": -160,
+		"root": false
+	},
+	"60vylfqafs036xgq": {
+		"definition": "tactic_overwhelm_ranged_crit_chance2",
+		"x": 32,
+		"y": -192,
+		"root": false
+	},
+	"1iumtekgj354onvh": {
+		"definition": "tactic_hitrun_meele_crit_chance2",
+		"x": -32,
+		"y": -192,
+		"root": false
+	},
+	"e7ctu5zc97p5d3ok": {
+		"definition": "minor_strength",
+		"x": -32,
+		"y": -256,
+		"root": false
+	},
+	"m6mz1yyl29jmrax1": {
+		"definition": "minor_dexterity",
+		"x": 32,
+		"y": -256,
+		"root": false
+	},
+	"jn6ozx86fcw5jcsy": {
+		"definition": "adventurer_elite",
+		"x": 0,
+		"y": -320,
+		"root": false
+	}
+}
