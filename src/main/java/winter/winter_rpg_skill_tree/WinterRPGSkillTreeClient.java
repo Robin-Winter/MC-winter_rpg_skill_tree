@@ -1,4 +1,4 @@
-package main.java.winter_rpg_skill_tree;
+package winter.winter_rpg_skill_tree;
 
 import net.minecraft.client.Minecraft;
 import net.neoforged.api.distmarker.Dist;

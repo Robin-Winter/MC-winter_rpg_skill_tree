@@ -1,13 +1,5 @@
 {
-  "itemGroup.winter_rpg_skill_tree": "Example Mod Tab",
-  "block.winter_rpg_skill_tree.example_block": "Example Block",
-  "item.winter_rpg_skill_tree.example_item": "Example Item",
-
   "winter_rpg_skill_tree.configuration.title": "Winter RPG Skill Tree Configs",
   "winter_rpg_skill_tree.configuration.section.winter_rpg_skill_tree.common.toml": "Winter RPG Skill Tree Configs",
-  "winter_rpg_skill_tree.configuration.section.winter_rpg_skill_tree.common.toml.title": "Winter RPG Skill Tree Configs",
-  "winter_rpg_skill_tree.configuration.items": "Item List",
-  "winter_rpg_skill_tree.configuration.logDirtBlock": "Log Dirt Block",
-  "winter_rpg_skill_tree.configuration.magicNumberIntroduction": "Magic Number Text",
-  "winter_rpg_skill_tree.configuration.magicNumber": "Magic Number"
+  "winter_rpg_skill_tree.configuration.section.winter_rpg_skill_tree.common.toml.title": "Winter RPG Skill Tree Configs"
 }
